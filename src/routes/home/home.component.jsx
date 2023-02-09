@@ -1,7 +1,7 @@
-import { CategoryItem } from '../category-item/category-item.component';
+import { CategoryItem } from '../../components/category-item/category-item.component';
 import './categories.styles.scss';
 
-export const Categories = () => {
+export const Home = () => {
   const categories = [
     {
       "id": 1,
