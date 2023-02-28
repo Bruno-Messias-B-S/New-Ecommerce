@@ -9,7 +9,7 @@ export const Navigation = () => {
         <>
             <div className='navigation'>
                 <Link className='logo-container' to="/">
-                    <CrownLogo className='logo' />
+                    <CrownLogo className='logo'/>
                 </Link>
 
                 <div className='nav-links-container'>
@@ -17,7 +17,7 @@ export const Navigation = () => {
                         SHOP
                     </Link>
 
-                    <Link className='nav-link' to="/sign-in">
+                    <Link className='nav-link' to="/auth">
                         SIGN IN
                     </Link>
                 </div>
